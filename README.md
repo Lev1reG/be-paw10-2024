@@ -6,4 +6,4 @@
 2. Aisa Selvira Q.A (22/498561/TK/54690)
 3. Moh. Nazril Ilham (22/493142/TK/54000)
 4. Muhammad Rafli Ramadani (22/497787/TK/54571)
-5. 
+5. Satama Safika (22/492880/TK/53955)
