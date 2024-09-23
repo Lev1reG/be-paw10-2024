@@ -8,14 +8,39 @@
 4. Muhammad Rafli Ramadani (22/497787/TK/54571)
 5. Satama Safika (22/492880/TK/53955)
 
-## Dokumentasi API: Metode HTTP dan Endpoint
+### Installation 🌐
+1. Clone the repository
+```
+git clone
+```
+2. Install NPM packages
+```
+npm install
+```
+3. Run the application
+```
+npm run start
+```
+4. Access the API via `http://localhost:5000`
 
-### Metode HTTP dan Endpoint Item
+## API Documentation: HTTP Methods and Endpoints
 
-| Metode HTTP | Endpoint                                    | Deskripsi                                        |
-|-------------|---------------------------------------------|--------------------------------------------------|
-| **POST**    | `http://localhost:5000/items/create`         | Menambahkan item baru ke dalam daftar barang.    |
-| **GET**     | `http://localhost:5000/items`               | Menampilkan seluruh item yang tersedia.          |
-| **GET**     | `http://localhost:5000/items/{id}`          | Menampilkan detail item berdasarkan ID yang dipilih. |
-| **PUT**     | `http://localhost:5000/items/edit/{id}`     | Memperbarui informasi item berdasarkan ID yang dipilih. |
-| **DELETE**  | `http://localhost:5000/items/delete/{id}`   | Menghapus item dari daftar berdasarkan ID yang dipilih. |
+### HTTP Methods and Item Endpoints
+
+| HTTP Method | Endpoint                                    | Description                                     |
+|-------------|---------------------------------------------|-------------------------------------------------|
+| **POST**    | `http://localhost:5000/items/create`         | Adds a new item to the inventory.               |
+| **GET**     | `http://localhost:5000/items`               | Retrieves a list of all available items.        |
+| **GET**     | `http://localhost:5000/items/{id}`          | Retrieves details of a specific item by its ID. |
+| **PUT**     | `http://localhost:5000/items/edit/{id}`     | Updates the details of a specific item by its ID. |
+| **DELETE**  | `http://localhost:5000/items/delete/{id}`   | Deletes a specific item by its ID.              |
+
+
+
+## Important Diagram 🛎️
+
+For a visual representation of the use cases, please refer to the following diagram:
+
+![Use Case Diagram](./use%20case.png)
+
+
