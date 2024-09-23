@@ -6,6 +6,8 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const process = require('process');
+const barangRoutes = require('./routes/barang.routes'); // Impor barang.routes
+
 const app = express();
 
 // DOTENV CONFIG
@@ -31,12 +33,15 @@ mongoose.connect(process.env.MONGODB_URI)
   .catch((err) => {
     console.log('Failed to connect to the database');
     console.log(err);
-  })
+  });
 
 // ROUTES
 app.get('/', (req, res) => {
   res.send('Hello from PAW 10 Backend Service!');
 });
+
+// MIDDLEWARE ROUTES
+app.use('/items', barangRoutes); // Gunakan barangRoutes
 
 // APP START
 app.listen(5000, () => {
