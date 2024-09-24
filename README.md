@@ -38,8 +38,8 @@ npm run start
 ### HTTP Methods and Log In Endpoints
 | HTTP Method | Endpoint                          | Description               |
 |-------------|------------------------------------|---------------------------|
-| **POST**        | 'http://localhost:5000/register'    | user creates an account   |
-| **GET**         | http://localhost:5000/login'        | user logs in to the account |
+| **POST**        | `http://localhost:5000/register`    | user creates an account   |
+| **GET**         | `http://localhost:5000/login`        | user logs in to the account |
 
 
 
