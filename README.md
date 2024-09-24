@@ -29,11 +29,17 @@ npm run start
 
 | HTTP Method | Endpoint                                    | Description                                     |
 |-------------|---------------------------------------------|-------------------------------------------------|
-| **POST**    | `http://localhost:5000/items/create`         | Adds a new item to the inventory.               |
+| **POST**    | `http://localhost:5000/items/create`         | Add new item to the inventory.               |
 | **GET**     | `http://localhost:5000/items`               | Retrieves a list of all available items.        |
 | **GET**     | `http://localhost:5000/items/{id}`          | Retrieves details of a specific item by its ID. |
 | **PUT**     | `http://localhost:5000/items/edit/{id}`     | Updates the details of a specific item by its ID. |
 | **DELETE**  | `http://localhost:5000/items/delete/{id}`   | Deletes a specific item by its ID.              |
+
+### HTTP Methods and Log In Endpoints
+| HTTP Method | Endpoint                          | Description               |
+|-------------|------------------------------------|---------------------------|
+| **POST**        | 'http://localhost:5000/register'    | user creates an account   |
+| **GET**         | http://localhost:5000/login'        | user logs in to the account |
 
 
 
